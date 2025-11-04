@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: PlaneDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::PlaneDatabase
+  allPlanes:
+  - planeName: Triangle
+    speed: 6
+    fireRate: 0.5
+    selectedSprite: {fileID: 1014392154, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    colorOptions:
+    - colorName: Light Blue
+      hexCode: '#36BBF5'
+      spriteName: {fileID: 1974492190, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Green
+      hexCode: '#00FF00'
+      spriteName: {fileID: 1486994967, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Orange
+      hexCode: '#DE532C'
+      spriteName: {fileID: -896706959, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Red
+      hexCode: '#FF0000'
+      spriteName: {fileID: 1014392154, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    isUnlocked: 1
+    price: 0
+    planePrefab: {fileID: 1787121675181911800, guid: de980cf4b8835c6469b2b1314b9ad351, type: 3}
+  - planeName: Box
+    speed: 7
+    fireRate: 0.5
+    selectedSprite: {fileID: -977981794, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    colorOptions:
+    - colorName: Light Blue
+      hexCode: '#36BBF5'
+      spriteName: {fileID: -977981794, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Green
+      hexCode: '#00FF00'
+      spriteName: {fileID: 402797976, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Orange
+      hexCode: '#DE532C'
+      spriteName: {fileID: 245544676, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Red
+      hexCode: '#FF0000'
+      spriteName: {fileID: -1770994301, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    isUnlocked: 0
+    price: 500
+    planePrefab: {fileID: 2014785075160453538, guid: 09ce4401ef1cdac418b3d80873df8533, type: 3}
+  - planeName: Arrow
+    speed: 7.5
+    fireRate: 0.4
+    selectedSprite: {fileID: -1081679315, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    colorOptions:
+    - colorName: Light Blue
+      hexCode: '#36BBF5'
+      spriteName: {fileID: -1081679315, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Green
+      hexCode: '#00FF00'
+      spriteName: {fileID: 338664112, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Orange
+      hexCode: '#DE532C'
+      spriteName: {fileID: 2136058435, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Red
+      hexCode: '#FF0000'
+      spriteName: {fileID: 251030162, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    isUnlocked: 1
+    price: 800
+    planePrefab: {fileID: 7880262338742515053, guid: 86165a5af5e901c4a83b5d9c20c99030, type: 3}
+  - planeName: Sriver
+    speed: 9
+    fireRate: 0.3
+    selectedSprite: {fileID: 1620262949, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    colorOptions:
+    - colorName: Orange
+      hexCode: '#EE8900'
+      spriteName: {fileID: 1620262949, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Light Blue
+      hexCode: '#91C9E8'
+      spriteName: {fileID: 131024810, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Green
+      hexCode: '#45BF55'
+      spriteName: {fileID: -2137216494, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Red
+      hexCode: '#FF0000'
+      spriteName: {fileID: -1702854744, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    isUnlocked: 0
+    price: 1500
+    planePrefab: {fileID: 1965966572210596909, guid: b4b8335563c1b98479257244695f3240, type: 3}
+  - planeName: JetRay
+    speed: 9.5
+    fireRate: 0.4
+    selectedSprite: {fileID: 21300000, guid: 6110991e32ce065459e667ca8d35b2f3, type: 3}
+    colorOptions:
+    - colorName: Blue
+      hexCode: '#36BBF5'
+      spriteName: {fileID: 21300000, guid: 6110991e32ce065459e667ca8d35b2f3, type: 3}
+    - colorName: Green
+      hexCode: '#00FF00'
+      spriteName: {fileID: 21300000, guid: a1c16a1f69d792d43b4a97e018408827, type: 3}
+    - colorName: Orange
+      hexCode: '#EE8900'
+      spriteName: {fileID: 21300000, guid: 3cba9bc95dba45449b4df987dda5068f, type: 3}
+    - colorName: Grey
+      hexCode: '#5A5164'
+      spriteName: {fileID: 21300000, guid: 3317db4ca52fe29429cab5c0f85cf014, type: 3}
+    isUnlocked: 0
+    price: 1900
+    planePrefab: {fileID: 5413850138368974644, guid: f7cfe3cfd32dcaa47af8e0726f20f124, type: 3}
+  - planeName: Tenergy
+    speed: 7.5
+    fireRate: 0.2
+    selectedSprite: {fileID: -463747670, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    colorOptions:
+    - colorName: Green
+      hexCode: '#45BF55'
+      spriteName: {fileID: 297076308, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Orange
+      hexCode: '#EE8900'
+      spriteName: {fileID: -463747670, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    - colorName: Red
+      hexCode: '#FF0000'
+      spriteName: {fileID: 2029881519, guid: cabdcd946246c4f4db88a94907f179cf, type: 3}
+    isUnlocked: 0
+    price: 2200
+    planePrefab: {fileID: 3624315432272083649, guid: 751578fab914c55478c4b2ee4593dad6, type: 3}
+  enemyPlanes:
+  - enemyName: Poison Spitter
+    enemySpeed: 5
+    enemyFireRate: 1
+    enemyType: 1
+    enemyPrefab: {fileID: 5344323556951372559, guid: e9b0e5fc6811d824fbcfd8ebef1697a5, type: 3}
+  - enemyName: Poison Spitter Purple
+    enemySpeed: 5
+    enemyFireRate: 1
+    enemyType: 1
+    enemyPrefab: {fileID: 5344323556951372559, guid: ebba91181b3d7a04a9125906e883a3b8, type: 3}
+  - enemyName: Fly
+    enemySpeed: 5
+    enemyFireRate: 1
+    enemyType: 1
+    enemyPrefab: {fileID: 5344323556951372559, guid: 20b535dbc3907f0479324995c29f112c, type: 3}
